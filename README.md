@@ -1,5 +1,14 @@
 # MRI to Synthetic CT Streamlit application
 
+## How to add new model
+
+- Step 1 : Add new model to /model/final_generator_XXXXX.pth file
+- Step 2 : Update the parameters of /model/unet_generator.py 's UNet model based on trained .pth file
+- Step 3 : Update the import line in /backend/model_predict.py line 9 .
+```
+def load_model(model_path="model/best_generator_3.1.2_v3.pth"):
+```
+
 ## File Structure
 
 ```
