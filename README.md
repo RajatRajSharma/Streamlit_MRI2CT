@@ -1,5 +1,9 @@
 # MRI to Synthetic CT Streamlit application
 
+## How to run this Streamlit application
+```
+streamlit run app.py
+```
 ## How to add new model
 
 - Step 1 : Add new model to /model/final_generator_XXXXX.pth file
