@@ -78,5 +78,9 @@ Stacks all synthetic CT slices into a 3D volume.
 Saves the result as a .nii.gz NIfTI file with the original affine matrix preserved.
 Provides a download button to get the full synthetic CT volume.
 
+# Sample
+![image](https://github.com/user-attachments/assets/359f5a27-6cae-47ef-98de-9f4e74cd00ae)
+
+
 
 
